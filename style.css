@@ -1,0 +1,335 @@
+/** Add any CSS you need to this file. */
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right, aside, .ads, .header, .container{
+    width:100%;
+  }
+}
+
+body {
+  background-color: white;
+}
+
+.dark-mode {
+  background-color: grey;
+  color: white;
+  border-color: white;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    top: 0;
+    margin: 0;
+    padding-top: 20;
+    z-index: 2;
+    background-image: url("/images/header-background.jpg");
+    background-color: #cccccc;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: black;
+
+}
+
+.header img {
+    
+    max-width: 15%;
+    height: auto;
+}
+
+.menu ul {
+    position: sticky;
+    top: 5;
+    width: 100%;
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+.menu li {
+    float: left;
+}
+  
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li a:hover {
+    background-color: black;
+}
+
+.sidenav {
+    height: 20%;
+    width: 150px; 
+    position: fixed; 
+    left: 5;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .description h1 {
+      text-align: center;
+      font-family: fantasy;
+      color: black;
+  }
+
+  .description p {
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+  }
+
+  .contactheader {
+    text-align: center;
+  }
+
+  form {
+    display:grid;
+    margin: auto;
+    width: 400px;
+    grid-template-columns: 0.3fr 1fr;
+    grid-gap: 20px;
+    background-color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+  }
+
+  legend {
+    width: 350px;
+
+  }
+
+  footer {
+    background-color: #111;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .footer p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #toilet1 {
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #toilet1 img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    overflow: auto;
+  }
+
+  #toilet2 {
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #toilet2 img {
+    height: 125px;
+    width: 125px;
+    float: left;
+  }
+  
+  #toilet2 li{
+    overflow: auto;
+  }
+
+  #toilet3{
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #toilet3 img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    overflow: auto;
+  }
+
+  #toilet3 li {
+    overflow: auto;
+  }
+
+  #toilet4{
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #toilet4 img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    overflow: auto;
+  }
+
+  #toilet4 li {
+    overflow: auto;
+  }
+
+  #toilet5{
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #toilet5 img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    overflow: auto;
+  }
+
+  #toilet5 li {
+    overflow: auto;
+  }
+
+  #toilet6{
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #toilet6 img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    overflow: auto;
+  }
+
+  #toilet6 li {
+    overflow: auto;
+  }
+
+  #toilet7{
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #toilet7 img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    overflow: auto;
+  }
+
+  #toilet7 li {
+    overflow: auto;
+  }
+
+  #toilet8{
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #toilet8 img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    overflow: auto;
+  }
+
+  #toilet8 li {
+    overflow: auto;
+  }
+
+  #toilet9{
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #toilet9 img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    overflow: auto;
+  }
+
+  #toilet9 li {
+    overflow: auto;
+  }
+
+  #toilet10{
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #toilet10 img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    overflow: auto;
+  }
+
+  #toilet10 li {
+    overflow: auto;
+  }
